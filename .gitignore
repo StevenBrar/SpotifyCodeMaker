@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variables
+*.env
+
+# Cache files
+.cache/
+*.log
+*.pot
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+
+# Spotify codes output
+spotify_codes/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
