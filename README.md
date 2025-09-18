@@ -23,7 +23,7 @@ cd SpotifyCodeMaker
 
 2. Install dependencies
 
-pip install -r requirements.txt
+pip install -r requirements.txt 
 
 3. Get Spotify API credentials
 
