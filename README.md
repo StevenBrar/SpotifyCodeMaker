@@ -14,6 +14,7 @@ Perfect for printing, sharing, or embedding in projects.
 - Skips duplicates automatically
 - Optional `.env` support for API keys (no more messing with environment variables)
 ## Set-Up
+
 ### 1. Clone the repo
 
 git clone https://github.com/StevenBrar/SpotifyCodeMaker.git
