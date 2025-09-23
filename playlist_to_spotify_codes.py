@@ -94,4 +94,4 @@ def playlist_to_codes(playlist_link: str):
 
 if __name__ == "__main__":
     # Enter Playlist Link
-    playlist_to_codes("https://open.spotify.com/playlist/7kuA3yIM1X3Y7i38m0iNcb?si=193de1366f2644ce")
+    playlist_to_codes("...")
