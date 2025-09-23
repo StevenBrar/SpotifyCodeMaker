@@ -8,7 +8,7 @@ Perfect for printing, sharing, or embedding in projects.
 
 
 ## Features
-- Fetches all tracks from a public (or private) Spotify playlist
+- Fetches all tracks from a public Spotify playlist (will have feature in future for private playlists)
 - Generates Spotify Code images for each track
 - Saves codes as `.png`, `.jpeg`, or `.svg` with custom background & code colors
 - Skips duplicates automatically
