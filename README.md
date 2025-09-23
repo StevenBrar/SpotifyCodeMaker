@@ -1,21 +1,19 @@
-# SpotifyCodeMaker 🎶➡️📷
+
+# Spotify Code Maker
 
 Generate **Spotify Codes** for every track in a playlist using Python + Spotify’s Web API.  
+
 Perfect for printing, sharing, or embedding in projects.
 
----
 
-## ✨ Features
+
+## Features
 - Fetches all tracks from a public (or private) Spotify playlist
 - Generates Spotify Code images for each track
 - Saves codes as `.png`, `.jpeg`, or `.svg` with custom background & code colors
 - Skips duplicates automatically
 - Optional `.env` support for API keys (no more messing with environment variables)
-
----
-
-## 🛠️ Setup
-
+## Set-Up
 ### 1. Clone the repo
 
 git clone https://github.com/StevenBrar/SpotifyCodeMaker.git
@@ -37,29 +35,25 @@ ini-
 SPOTIPY_CLIENT_ID=your_client_id_here
 SPOTIPY_CLIENT_SECRET=your_client_secret_here
 
+
 ## Usage
+
 Run the script with a Spotify playlist link:
 
+Example: 
+
+playlist_to_codes("https://open.spotify.com/playlist/7kuA3yIM1X3Y7i38m0iNcb?si=193de1366f2644ce")
+
 bash-
+
 python playlist_to_spotify_codes.py
+
 By default, codes are saved to the spotify_codes/ folder.
+## Example Output
 
-
-## Usage
-In playlist_to_spotify_codes.py you can tweak:
-
-python-
-CODES_FORMAT = "png"   # "png", "jpeg", "svg"
-BG_HEX = "000000"      # background color (hex without #)
-CODE_COLOR = "white"   # "white" or "black"
-SIZE = "640"           # image size (80–640)
-
-## 📂 Example Output
-
+```
 spotify_codes/
 ├── Artist1 - Song1.png
 ├── Artist2 - Song2.png
 └── Artist3 - Song3.png
-
-
-```bash
+```
